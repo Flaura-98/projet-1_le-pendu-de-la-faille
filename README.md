@@ -126,11 +126,8 @@ La documentation technique complète (maquette, choix de conception, règles dé
 - Les polices _Beaufort for LOL_ et _Spiegel_ étant sous licence commerciale, ce projet utilise **Cinzel** et **Jost** (Google Fonts, libres de droits) à la place.
 - L’écran de victoire/défaite est une **interprétation originale**, non une reproduction des écrans officiels de fin de partie.
 - League of Legends est une marque déposée de Riot Games, Inc. Ce projet est un travail pédagogique **non commercial et n’est affilié ni approuvé par Riot Games**.
-  _Le Pendu de la Faille — Édition Invocateur n'est pas approuvé par Riot Games
-  et ne reflète pas les points de vue ou opinions de Riot Games ni de toute
-  personne officiellement impliquée dans la production ou la gestion des
-  propriétés de Riot Games. Riot Games et toutes les propriétés associées sont
-  des marques commerciales ou des marques déposées de Riot Games, Inc._
+
+> _Le Pendu de la Faille — Édition Invocateur n'est pas approuvé par Riot Games et ne reflète pas les points de vue ou opinions de Riot Games ni de toute personne officiellement impliquée dans la production ou la gestion des propriétés de Riot Games. Riot Games et toutes les propriétés associées sont des marques commerciales ou des marques déposées de Riot Games, Inc._
 
 ---
 
