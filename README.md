@@ -69,18 +69,18 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 
 ## 🚀 Installation
 
-1- Au-dessus de la liste de fichiers, cliquez sur `<> Code`.
-2- Copiez l’URL du dépôt.
-3- Ouvrez Git Bash ou votre Terminal.
-4- Remplacez le répertoire de travail actuel par l’emplacement où vous voulez mettre le répertoire cloné.
-6- Tapez `git clone`, puis collez l’URL que vous avez copiée précédemment.
+1. Au-dessus de la liste de fichiers, cliquez sur `<> Code`.
+2. Copiez l’URL du dépôt.
+3. Ouvrez Git Bash ou votre Terminal.
+4. Remplacez le répertoire de travail actuel par l’emplacement où vous voulez mettre le répertoire cloné.
+5. Tapez `git clone`, puis collez l’URL que vous avez copiée précédemment.
 
 ```bash
 git clone https://github.com/Flaura-98/projet-1_le-pendu-de-la-faille.git
 ```
 
-7- Appuyez sur `Entrée` pour créer votre clone local.
-8- Ouvrez simplement `index.html` dans votre navigateur.
+7. Appuyez sur `Entrée` pour créer votre clone local.
+8. Ouvrez simplement `index.html` dans votre navigateur.
 
 Le jeu démarre tout seul - il n'y a ni page d'accueil ni bouton « Jouer ».
 
