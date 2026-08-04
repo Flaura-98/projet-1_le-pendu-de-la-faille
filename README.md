@@ -4,7 +4,7 @@
 > Devine le nom du champion caché avant que la Faille ne se referme.
 
 - **Statut** : ⏳ En cours de validation
-- **Licence** : 🎓 Projet Pédagogique - Believemy - Projet Passerelle #1
+- **Licence** : 🎓 Projet Pédagogique - [Believemy](https://believemy.com/fr) - Projet Passerelle #1
 - **IA** : 🤖 **Claude Code** a été utilisé uniquement de manière ponctuelle pour obtenir des explications, mieux comprendre certaines fonctionnalités et aider à identifier ou résoudre certains bugs. **L'intégralité de la conception, du développement, de l'intégration et des autres fonctionnalités a été réalisée par moi.**
 
 ---
@@ -13,7 +13,7 @@
 
 **Le Pendu de la Faille** est un jeu du pendu revisité dans l’univers de League of Legends : les mots à deviner sont des noms de champions. Le pendu traditionnel est remplacé par une mascotte originale, et une fois le mot trouvé, le portrait du champion s’affiche accompagné d’une citation.
 
-Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Développeur Web Full Stack - Believemy. Sans démonstration fournie au préalable, la conception (maquette, identité visuelle, règles) est entièrement personnelle.
+Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Développeur Web Full Stack - [Believemy](https://believemy.com/fr). Sans démonstration fournie au préalable, la conception (maquette, identité visuelle, règles) est entièrement personnelle.
 
 ---
 
@@ -33,21 +33,26 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 - 🎮 Mode **solo ou multijoueur local**.
 - 🔤 Le joueur peut proposer **une lettre** ou **un mot complet**.
 - 🏆 **Révélation du champion** trouvé : portrait + citation (via l’API Data Dragon).
-- 🌍 Gestion complète des accents à l'affichage **et** à la comparaison.
+- 🌍 **Gestion complète des accents** à l'affichage.
 - ⌨️ Clavier virtuel **et** clavier physique.
 - 📡 Gestion de la panne réseau, avec bouton « Réessayer ».
 - 🎨 Identité visuelle originale (Pendu dessiné en **SVG**, donc net à toutes les tailles).
 - 🖥️ Interface en **2 écrans avec transition de glissement** (jeu, résultat).
-- 📱 **Responsive** jusqu'à 320 px de large.
+- 📱 **Responsive**, Ordinateur, Tablette & Mobile.
 - 🏅 Écran de **victoire / défaite** stylisé.
 
 ---
 
 ## 🛠️ Stack technique
 
-- **HTML / CSS / JavaScript**
-- **Git & GitHub** pour le versionnage.
-- **Data Dragon** (API publique Riot Games) pour les portraits de champions et citations.
+| Élément      | Détail                                                        |
+| ------------ | ------------------------------------------------------------- |
+| HTML5        | Structure des pages                                           |
+| CSS3         | Mise en forme, responsive design, animations et transitions   |
+| JavaScript   | Logique du jeu, interactions et gestion des événements        |
+| Google Fonts | Police d'écriture                                             |
+| GitHub       | Versionnage, suivi des modifications et sauvegarde du projet  |
+| Data Dragon  | API publique Riot Games - Portraits et citations de champions |
 
 ---
 
@@ -55,8 +60,8 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 
 | Élément        | Détail                                                   |
 | -------------- | -------------------------------------------------------- |
-| Titres         | Police **Cinzel** (Google Fonts)                         |
-| Texte de corps | Police **Jost** (Google Fonts)                           |
+| Titres         | Police **Cinzel** - Google Fonts                         |
+| Texte de corps | Police **Jost** - Google Fonts                           |
 | Couleurs       | Fond `#0A1428` · Accent doré `#C8AA6E` · Texte `#F0E6CF` |
 | Motifs         | Cadres à coins losanges, texture en hachures diagonales  |
 
@@ -64,12 +69,18 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 
 ## 🚀 Installation
 
+1- Au-dessus de la liste de fichiers, cliquez sur `<> Code`.
+2- Copiez l’URL du dépôt.
+3- Ouvrez Git Bash ou votre Terminal.
+4- Remplacez le répertoire de travail actuel par l’emplacement où vous voulez mettre le répertoire cloné.
+6- Tapez `git clone`, puis collez l’URL que vous avez copiée précédemment.
+
 ```bash
-git clone https://github.com/Flaura-98/pendu-de-la-faille.git
-cd pendu-de-la-faille](https://github.com/Flaura-98/projet-1_le-pendu-de-la-faille.git)
+git clone https://github.com/Flaura-98/projet-1_le-pendu-de-la-faille.git
 ```
 
-Puis ouvre simplement `index.html` dans ton navigateur.
+7- Appuyez sur `Entrée` pour créer votre clone local.
+8- Ouvrez simplement `index.html` dans votre navigateur.
 
 Le jeu démarre tout seul - il n'y a ni page d'accueil ni bouton « Jouer ».
 
@@ -125,7 +136,7 @@ La documentation technique complète (maquette, choix de conception, règles dé
 
 ## 👤 Auteur
 
-_Laura Fontaine/Flaura.dev_ — projet passerelle #1 réalisé dans le cadre de la formation Développeur Web Full Stack Freelance - Believemy
+_Laura Fontaine/Flaura.dev_ — Projet Passerelle #1 réalisé dans le cadre de la formation Développeur Web Full Stack Freelance - [Believemy](https://believemy.com/fr)
 
 ## 📜 Licence
 
