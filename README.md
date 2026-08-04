@@ -3,9 +3,9 @@
 > Un jeu du pendu solo ou multijoueur, thème League of Legends.
 > Devine le nom du champion caché avant que la Faille ne se referme.
 
-Statut : En cours ⏳
-Licence : Projet Pédagogique - Believemy - Projet Passerelle #1
-IA : 🤖 **Claude Code** a été utilisé uniquement de manière ponctuelle pour obtenir des explications, mieux comprendre certaines fonctionnalités et aider à identifier ou résoudre certains bugs. **L'intégralité de la conception, du développement, de l'intégration et des autres fonctionnalités a été réalisée par moi.**
+- **Statut** : ⏳ En cours de validation
+- **Licence** : 🎓 Projet Pédagogique - Believemy - Projet Passerelle #1
+- **IA** : 🤖 **Claude Code** a été utilisé uniquement de manière ponctuelle pour obtenir des explications, mieux comprendre certaines fonctionnalités et aider à identifier ou résoudre certains bugs. **L'intégralité de la conception, du développement, de l'intégration et des autres fonctionnalités a été réalisée par moi.**
 
 ---
 
@@ -20,17 +20,11 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 ## 🎮 Règles du jeu
 
 - Le mot secret est le nom d'un champion, tiré au hasard.
-- **10 erreurs autorisées.** Chaque erreur ajoute un morceau à la mascotte
-  suspendue à la potence.
-- Deux façons de jouer, à tout moment et dans n'importe quel ordre :
-  proposer **une lettre** (clavier virtuel ou clavier physique) ou proposer
-  **le mot entier**.
-- Les accents sont pardonnés : taper `e` trouve aussi `é`. Un petit `´` au-dessus
-  du tiret prévient qu'il y a un accent à cet endroit, sans révéler la lettre.
-- **Pas de gestion de joueurs ni de tours** : la vie est partagée, plusieurs
-  personnes peuvent se relayer devant le même écran.
-- Victoire comme défaite, l'écran de fin révèle le champion — portrait, nom et
-  titre officiel.
+- **10 erreurs autorisées.** Chaque erreur ajoute un morceau à la mascotte suspendue à la potence.
+- Deux façons de jouer, à tout moment et dans n'importe quel ordre : proposer **une lettre** (clavier virtuel ou clavier physique) ou proposer **le mot entier**.
+- Les accents sont pardonnés : taper `e` trouve aussi `é`. Un petit `´` au-dessus du tiret prévient qu'il y a un accent à cet endroit, sans révéler la lettre.
+- **Pas de gestion de joueurs ni de tours** : la vie est partagée, plusieurs personnes peuvent se relayer devant le même écran.
+- Victoire comme défaite, l'écran de fin révèle le champion - portrait, nom et titre officiel.
 
 ---
 
