@@ -32,7 +32,7 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 
 - 🎮 Mode **solo ou multijoueur local**.
 - 🔤 Le joueur peut proposer **une lettre** ou **un mot complet**.
-- 🏆 **Révélation du champion** trouvé : portrait + citation (via l’API Data Dragon).
+- 🏆 **Révélation du champion** trouvé : portrait + citation (via l’API [Data Dragon](https://developer.riotgames.com/docs/lol)).
 - 🌍 **Gestion complète des accents** à l'affichage.
 - ⌨️ Clavier virtuel **et** clavier physique.
 - 📡 Gestion de la panne réseau, avec bouton « Réessayer ».
@@ -45,14 +45,14 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 
 ## 🛠️ Stack technique
 
-| Élément      | Détail                                                        |
-| ------------ | ------------------------------------------------------------- |
-| HTML5        | Structure des pages                                           |
-| CSS3         | Mise en forme, responsive design, animations et transitions   |
-| JavaScript   | Logique du jeu, interactions et gestion des événements        |
-| Google Fonts | Police d'écriture                                             |
-| GitHub       | Versionnage, suivi des modifications et sauvegarde du projet  |
-| Data Dragon  | API publique Riot Games - Portraits et citations de champions |
+| Élément                                                 | Détail                                                        |
+| ------------------------------------------------------- | ------------------------------------------------------------- |
+| HTML5                                                   | Structure des pages                                           |
+| CSS3                                                    | Mise en forme, responsive design, animations et transitions   |
+| JavaScript                                              | Logique du jeu, interactions et gestion des événements        |
+| Google Fonts                                            | Police d'écriture                                             |
+| GitHub                                                  | Versionnage, suivi des modifications et sauvegarde du projet  |
+| [Data Dragon](https://developer.riotgames.com/docs/lol) | API publique Riot Games - Portraits et citations de champions |
 
 ---
 
@@ -121,7 +121,7 @@ La documentation technique complète (maquette, choix de conception, règles dé
 
 ## ⚖️ Crédits & mentions légales
 
-- Portraits de champions récupérés via **Data Dragon**, mis à disposition par Riot Games pour les projets communautaires.
+- Portraits de champions récupérés via **[Data Dragon](https://developer.riotgames.com/docs/lol)**, mis à disposition par Riot Games pour les projets communautaires.
 - La mascotte du pendu est une **création originale**, distincte du Poro officiel de Riot Games.
 - Les polices _Beaufort for LOL_ et _Spiegel_ étant sous licence commerciale, ce projet utilise **Cinzel** et **Jost** (Google Fonts, libres de droits) à la place.
 - L’écran de victoire/défaite est une **interprétation originale**, non une reproduction des écrans officiels de fin de partie.
