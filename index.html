@@ -38,89 +38,116 @@
   <body>
     <div id="track">
       <section class="page">
-  <div class="page-content">
+        <div class="page-content">
 
-    <div class="frame title-frame">
-      <span class="corner tl"></span>
-      <span class="corner tr"></span>
-      <span class="corner bl"></span>
-      <span class="corner br"></span>
-      <h1>Le Pendu De La Faille</h1>
-      <p class="subtitle">Édition Invocateur</p>
-    </div>
+          <div class="frame title-frame">
+            <span class="corner tl"></span>
+            <span class="corner tr"></span>
+            <span class="corner bl"></span>
+            <span class="corner br"></span>
+            <h1>Le Pendu De La Faille</h1>
+            <p class="subtitle">Édition Invocateur</p>
+          </div>
 
-    <p class="description">Un champion se cache dans la Faille. Révèle son nom
-      avant qu'il ne soit trop tard : 10 vies, pas une de plus.</p>
+          <p class="description">Un champion se cache dans la Faille. Révèle son nom
+            avant qu'il ne soit trop tard : 10 vies, pas une de plus.</p>
 
-    <p id="fetch-error" hidden>
-      Impossible de charger les champions, vérifie ta connexion.
-      <button class="btn" id="btn-retry">Réessayer</button>
-    </p>
+          <p id="fetch-error" hidden>
+            Impossible de charger les champions, vérifiez votre connexion.
+            <button class="btn" id="btn-retry">Réessayer</button>
+          </p>
 
-    <div class="board">
-    <svg id="hangman" viewBox="10 15 280 300" role="img" aria-label="Le pendu">
-      <!-- Étape 0 : la potence, visible dès le début (donc pas de hidden) -->
-      <g data-error="0">
-        <line x1="25" y1="300" x2="275" y2="300" />
-        <line x1="60" y1="30" x2="60" y2="300" />
-        <line x1="60" y1="30" x2="220" y2="30" />
-        <line x1="60" y1="65" x2="100" y2="30" />
-      </g>
+          <div class="board">
+          <svg id="hangman" viewBox="10 15 280 300" role="img" aria-label="Le pendu">
+            <!-- Étape 0 : la potence, visible dès le début (donc pas de hidden) -->
+            <g data-error="0">
+              <line x1="25" y1="300" x2="275" y2="300" />
+              <line x1="60" y1="30" x2="60" y2="300" />
+              <line x1="60" y1="30" x2="220" y2="30" />
+              <line x1="60" y1="65" x2="100" y2="30" />
+            </g>
 
-       <!-- Étape 1 : la corde -->
-      <g class="hidden" data-errors="1">
-        <line x1="220" y1="30" x2="220" y2="90" />
-      </g>
+            <!-- Étape 1 : la corde -->
+            <g class="hidden" data-errors="1">
+              <line x1="220" y1="30" x2="220" y2="90" />
+            </g>
 
-      <!-- Étape 2 : le corps -->
-      <circle class="hidden body" data-errors="2" cx="220" cy="150" r="55" />
+            <!-- Étape 2 : le corps -->
+            <circle class="hidden body" data-errors="2" cx="220" cy="150" r="55" />
 
-      <!-- Étapes 3 et 4 : les oreilles -->
-      <polygon class="hidden filled" data-errors="3" points="182,112 168,55 207,98" />
-      <polygon class="hidden filled" data-errors="4" points="258,112 272,55 233,98" />
+            <!-- Étapes 3 et 4 : les oreilles -->
+            <polygon class="hidden filled" data-errors="3" points="182,112 168,55 207,98" />
+            <polygon class="hidden filled" data-errors="4" points="258,112 272,55 233,98" />
 
-      <!-- Étapes 5 et 6 : les yeux -->
-      <g class="hidden eye" data-errors="5">
-        <circle cx="200" cy="140" r="10" class="eye-white" />
-        <circle cx="198" cy="138" r="4" class="pupil" />
-      </g>
-      <g class="hidden eye" data-errors="6">
-        <circle cx="240" cy="140" r="10" class="eye-white" />
-        <circle cx="238" cy="138" r="4" class="pupil" />
-      </g>
+            <!-- Étapes 5 et 6 : les yeux -->
+            <g class="hidden eye" data-errors="5">
+              <circle cx="200" cy="140" r="10" class="eye-white" />
+              <circle cx="198" cy="138" r="4" class="pupil" />
+            </g>
+            <g class="hidden eye" data-errors="6">
+              <circle cx="240" cy="140" r="10" class="eye-white" />
+              <circle cx="238" cy="138" r="4" class="pupil" />
+            </g>
 
-      <!-- Étape 7 : le museau -->
-      <circle class="hidden filled" data-errors="7" cx="220" cy="168" r="4" />
+            <!-- Étape 7 : le museau -->
+            <circle class="hidden filled" data-errors="7" cx="220" cy="168" r="4" />
 
-      <!-- Étapes 8 et 9 : les pattes -->
-      <circle class="hidden body" data-errors="8" cx="175" cy="195" r="13" />
-      <circle class="hidden body" data-errors="9" cx="265" cy="195" r="13" />
+            <!-- Étapes 8 et 9 : les pattes -->
+            <circle class="hidden body" data-errors="8" cx="175" cy="195" r="13" />
+            <circle class="hidden body" data-errors="9" cx="265" cy="195" r="13" />
 
-      <!-- Étape 10 : les croix de la défaite -->
-      <g class="hidden cross" data-errors="10">
-        <line x1="193" y1="133" x2="207" y2="147" />
-        <line x1="207" y1="133" x2="193" y2="147" />
-        <line x1="233" y1="133" x2="247" y2="147" />
-        <line x1="247" y1="133" x2="233" y2="147" />
-      </g>
-    </svg>
+            <!-- Étape 10 : les croix de la défaite -->
+            <g class="hidden cross" data-errors="10">
+              <line x1="193" y1="133" x2="207" y2="147" />
+              <line x1="207" y1="133" x2="193" y2="147" />
+              <line x1="233" y1="133" x2="247" y2="147" />
+              <line x1="247" y1="133" x2="233" y2="147" />
+            </g>
+          </svg>
 
-      <div class="word-display" id="word-display"></div>
+          <div class="word-display" id="word-display"></div>
 
-      <form id="word-form">
-        <input type="text" id="word-input" placeholder="Proposer un champion" autocomplete="off">
-        <button type="submit" class="btn">Valider</button>
-      </form>
+          <form id="word-form">
+            <input type="text" id="word-input" placeholder="Proposer un champion" autocomplete="off">
+            <button type="submit" class="btn">Valider</button>
+          </form>
 
-      <div class="keyboard" id="keyboard"></div>
+          <div class="keyboard" id="keyboard"></div>
+          </div>
+        </div>
+        <footer>
+          <p>© Le Pendu De La Faille - Édition Invocateur n'est pas approuvé par Riot Games et ne reflète pas les points de vue ou opinions de Riot Games ni de toute personne officiellement impliquée dans la production ou la gestion des propriétés de Riot Games. Riot Games et toutes les propriétés associées sont des marques commerciales ou des marques déposées de Riot Games, Inc.</p>
+        </footer>
+      </section>
 
-    </div>
-  </div>
-</section>
+  <section class="page">
+    <div class="page-content">
 
-      <section class="page">
-        <h1>Ecran 2 : Résultats</h1>
-    </div>
+      <div class="frame result-frame">
+        <span class="corner tl"></span>
+        <span class="corner tr"></span>
+        <span class="corner bl"></span>
+        <span class="corner br"></span>
+
+        <h1 id="result-title">VICTOIRE</h1>
+
+        <div class="divider"><span></span></div>
+
+        <div class="portrait">
+          <img id="champion-portrait" src="" alt="">
+          <img src="./assets/portrait/cadre_champion.png" alt="">
+        </div>
+
+        <h2 id="champion-name"></h2>
+        <p id="champion-title"></p>
+      </div>
+
+      <button class="btn" id="btn-replay">Rejouer</button>
+      </div>
+    <footer>
+      <p>© Le Pendu De La Faille - Édition Invocateur n'est pas approuvé par Riot Games et ne reflète pas les points de vue ou opinions de Riot Games ni de toute personne officiellement impliquée dans la production ou la gestion des propriétés de Riot Games. Riot Games et toutes les propriétés associées sont des marques commerciales ou des marques déposées de Riot Games, Inc.</p>
+    </footer>
+  </section>
   <script src="js/script.js"></script>
   </body>
 </html>
