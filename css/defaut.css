@@ -1,4 +1,4 @@
-/* ====< POLICE >==== */
+/* ====< POLICES & COULEURS >==== */
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
@@ -24,4 +24,419 @@
 
   --title-font: "Cinzel", serif;
   --body-font: "Jost", sans-serif;
+}
+
+/* ====< MISE EN FORME >==== */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-width: 320px;
+  overflow: hidden;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--body-font);
+
+  /* les fines rayures dorées du fond */
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--gold-faint) 0px,
+    var(--gold-faint) 1px,
+    transparent 1px,
+    transparent 18px
+  );
+}
+
+h1,
+h2 {
+  font-family: var(--title-font);
+}
+
+#track {
+  height: 100vh;
+  transition: transform 0.6s ease;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+  padding: 32px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.page-content {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 480px;
+}
+
+/* Le cadre doré avec les coins losanges */
+.frame {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  padding: 32px 40px;
+  border: 1px solid var(--gold-line);
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.frame > * {
+  margin: 0;
+}
+
+.corner {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: var(--gold);
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+.corner.tl {
+  top: -5px;
+  left: -5px;
+}
+.corner.tr {
+  top: -5px;
+  right: -5px;
+}
+.corner.bl {
+  bottom: -5px;
+  left: -5px;
+}
+.corner.br {
+  bottom: -5px;
+  right: -5px;
+}
+
+.title-frame h1 {
+  font-size: 1.7rem;
+  white-space: nowrap; /* éviter le passage à la ligne */
+}
+
+.subtitle {
+  font-style: italic;
+  color: var(--text-soft);
+}
+
+.description {
+  width: 100%;
+  max-width: 480px;
+  margin: 0;
+  color: var(--text-soft);
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* --- Le mot à deviner --- */
+.word-display {
+  display: flex;
+  gap: 10px;
+  font-family: var(--title-font);
+  font-size: 2rem;
+  letter-spacing: 4px;
+}
+
+.slot {
+  position: relative;
+  min-width: 0.7em;
+  text-align: center;
+  border-bottom: 2px solid var(--gold);
+}
+
+.slot.found {
+  border-bottom-color: transparent;
+}
+
+.hint {
+  position: absolute;
+  top: -0.6em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.9rem;
+  color: var(--text-faint);
+}
+
+/* --- Le clavier --- */
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 6px;
+  width: 100%;
+  max-width: 480px;
+}
+
+.key {
+  aspect-ratio: 1;
+  border: 1px solid var(--gold-line);
+  border-radius: 4px;
+  background: var(--bg-card);
+  color: var(--text);
+  font-family: var(--body-font);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.key:hover:not(:disabled) {
+  border-color: var(--gold);
+}
+.key:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.key.correct {
+  background: var(--green-bg);
+  color: var(--green-text);
+  border-color: var(--green);
+}
+
+.key.wrong {
+  background: var(--red-bg);
+  color: var(--red-text);
+  border-color: var(--red);
+}
+
+#word-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 380px;
+}
+
+#word-input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--gold-line);
+  border-radius: 4px;
+  color: var(--text);
+  font-family: var(--body-font);
+  font-size: 1rem;
+}
+
+#word-input:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+#word-input::placeholder {
+  color: var(--text-faint);
+}
+
+.btn {
+  padding: 12px 28px;
+  background: var(--gold);
+  color: var(--bg);
+  border: none;
+  border-radius: 4px;
+  font-family: var(--body-font);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: var(--gold-hover);
+}
+
+/* ====< LE PENDU >==== */
+#hangman {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Par défaut : traits dorés, intérieur vide */
+#hangman line,
+#hangman circle,
+#hangman polygon {
+  stroke: var(--gold); /* stroke = couleur du trait */
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none; /* fill = couleur de l'intérieur */
+}
+
+/* Oreilles et museau : doré */
+#hangman .filled {
+  fill: var(--gold);
+  stroke: none;
+}
+
+/* Corps et pattes : intérieur bleu, contour doré */
+#hangman .body {
+  fill: var(--bg-card);
+  stroke-width: 8;
+}
+
+/* Les yeux */
+#hangman .eye-white {
+  fill: var(--text);
+  stroke: none;
+}
+#hangman .pupil {
+  fill: var(--bg-card);
+  stroke: none;
+}
+#hangman .cross line {
+  stroke: var(--text);
+  stroke-width: 5;
+}
+
+/* La classe que JS cache ou montre en fonction du nombre d'erreurs */
+.hidden {
+  display: none;
+}
+
+/* ====< PAGE RESULTAT >==== */
+.result-frame {
+  width: 440px;
+  max-width: 100%;
+}
+
+#result-title {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 8px;
+  white-space: nowrap;
+}
+
+#result-title.victory {
+  color: var(--green);
+}
+#result-title.defeat {
+  color: var(--red);
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--gold);
+}
+
+.divider span {
+  width: 10px;
+  height: 10px;
+  background: var(--gold);
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  flex-shrink: 0;
+}
+
+.portrait {
+  position: relative;
+  width: 100%;
+}
+
+.portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  pointer-events: none;
+}
+
+#champion-portrait {
+  position: absolute;
+  z-index: 1;
+  left: 49.56%;
+  top: 51.07%;
+  width: 33.04%;
+  height: 37.4%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ====< FOOTER >==== */
+footer {
+  width: 100%;
+  padding-top: 14px;
+  margin-top: 16px;
+  border-top: 1px solid var(--gold-soft);
+}
+
+footer p {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 0.68rem;
+  line-height: 1.5;
+  color: var(--text-faint);
+  text-align: center;
+}
+
+/* ====< RESPONSIVE >==== */
+@media (max-width: 600px) {
+  .page {
+    padding: 24px 16px 12px;
+  }
+  .frame {
+    padding: 20px;
+  }
+  .title-frame h1 {
+    font-size: 1.3rem;
+  }
+  #result-title {
+    font-size: 1.9rem;
+    letter-spacing: 5px;
+  }
+  .word-display {
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    gap: 6px;
+  }
+}
+
+@media (max-width: 360px) {
+  .frame {
+    padding: 14px;
+  }
+  .title-frame h1 {
+    font-size: 1.05rem;
+  }
+  #result-title {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+  }
+  .keyboard {
+    gap: 4px;
+  }
 }
