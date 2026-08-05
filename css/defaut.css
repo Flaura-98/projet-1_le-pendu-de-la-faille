@@ -182,8 +182,6 @@ h2 {
   top: -0.6em;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 0.9rem;
-  color: var(--text-faint);
 }
 
 /* == Le clavier == */
