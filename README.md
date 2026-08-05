@@ -65,6 +65,7 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 | Couleurs       | Fond `#0A1428` · Accent doré `#C8AA6E` · Texte `#F0E6CF` |
 | Motifs         | Cadres à coins losanges, texture en hachures diagonales  |
 
+<img src="https://github.com/Flaura-98/projet-1_le-pendu-de-la-faille/blob/main/assets/favicon/favicon.svg" width="48">
 ## ![Mascotte](https://github.com/Flaura-98/projet-1_le-pendu-de-la-faille/blob/main/assets/favicon/favicon.svg)
 
 ## 🚀 Installation
