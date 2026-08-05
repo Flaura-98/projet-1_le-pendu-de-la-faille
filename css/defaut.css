@@ -6,14 +6,14 @@
   --bg-card: #0f1b2e; /* touches, champ, corps du pendu */
 
   --gold: #c8aa6e;
-  --gold-hover: #ddbe85;
+  --gold-hover: #ddbe85; /* survol des boutons */
   --gold-line: rgba(200, 170, 110, 0.4); /* bordures */
   --gold-soft: rgba(200, 170, 110, 0.2); /* filet du footer */
   --gold-faint: rgba(200, 170, 110, 0.05); /* rayures du fond */
 
-  --text: #f0e6cf;
-  --text-soft: #9fb0c9;
-  --text-faint: #7d8aa3;
+  --text: #f0e6cf; /* texte principal */
+  --text-soft: #9fb0c9; /* sous-titre & description */
+  --text-faint: #7d8aa3; /* footer */
 
   --green: #5ab55e;
   --green-bg: rgba(90, 181, 94, 0.18);
@@ -22,8 +22,8 @@
   --red-bg: rgba(224, 96, 90, 0.18);
   --red-text: #e79b96;
 
-  --title-font: "Cinzel", serif;
-  --body-font: "Jost", sans-serif;
+  --title-font: "Cinzel", serif; /* titres, nom du champion, mot */
+  --body-font: "Jost", sans-serif; /* tout le reste */
 }
 
 /* ====< MISE EN FORME >==== */
@@ -37,11 +37,11 @@ body {
   padding: 0;
   height: 100%;
   min-width: 320px;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
   background-color: var(--bg);
   color: var(--text);
   font-family: var(--body-font);
-
   /* les fines rayures dorées du fond */
   background-image: repeating-linear-gradient(
     45deg,
@@ -155,11 +155,12 @@ h2 {
   line-height: 1.5;
 }
 
-/* --- Le mot à deviner --- */
+/* == Le mot à deviner == */
 .word-display {
   display: flex;
   gap: 10px;
   font-family: var(--title-font);
+  font-weight: 700;
   font-size: 2rem;
   letter-spacing: 4px;
 }
@@ -184,7 +185,7 @@ h2 {
   color: var(--text-faint);
 }
 
-/* --- Le clavier --- */
+/* == Le clavier == */
 .keyboard {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
@@ -324,10 +325,22 @@ h2 {
 }
 
 #result-title {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  white-space: nowrap;
+}
+
+#champion-name {
   font-size: 3rem;
   font-weight: 700;
-  letter-spacing: 8px;
-  white-space: nowrap;
+  letter-spacing: 3px;
+  color: var(--text);
+}
+
+#champion-title {
+  font-style: italic;
+  color: var(--text);
 }
 
 #result-title.victory {
@@ -377,10 +390,10 @@ h2 {
 #champion-portrait {
   position: absolute;
   z-index: 1;
-  left: 49.56%;
-  top: 51.07%;
-  width: 33.04%;
-  height: 37.4%;
+  left: 50.5%;
+  top: 51%;
+  width: 35%;
+  height: 42%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   object-fit: cover;
