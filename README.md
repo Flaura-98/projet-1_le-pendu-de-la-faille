@@ -66,7 +66,6 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 | Motifs         | Cadres à coins losanges, texture en hachures diagonales  |
 
 <img src="https://github.com/Flaura-98/projet-1_le-pendu-de-la-faille/blob/main/assets/favicon/favicon.svg" width="32">
-## ![Mascotte](https://github.com/Flaura-98/projet-1_le-pendu-de-la-faille/blob/main/assets/favicon/favicon.svg)
 
 ## 🚀 Installation
 
