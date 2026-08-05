@@ -1,6 +1,6 @@
 # 🗡️ Le Pendu de la Faille — Édition Invocateur
 
-> Un jeu du pendu solo ou multijoueur, thème League of Legends.
+> Un jeu du pendu solo ou multijoueur, sur le thème du jeu League of Legends de RIOT Games.
 > Devine le nom du champion caché avant que la Faille ne se referme.
 
 - **Statut** : ⏳ En cours de validation
@@ -65,7 +65,7 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 | Couleurs       | Fond `#0A1428` · Accent doré `#C8AA6E` · Texte `#F0E6CF` |
 | Motifs         | Cadres à coins losanges, texture en hachures diagonales  |
 
----
+## ![Mascotte](https://github.com/Flaura-98/projet-1_le-pendu-de-la-faille/blob/main/assets/favicon/favicon.svg)
 
 ## 🚀 Installation
 
