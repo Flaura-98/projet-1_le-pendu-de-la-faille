@@ -1,6 +1,6 @@
 // ====< LES REGLES DU JEU >====
 const MAX_ERRORS = 10;
-const ALPHABET = "ABCDEFGHIJKLMOPQRSTUVWXYZ";
+const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const DEFEAT_PAUSE = 1000;
 const API = "https://ddragon.leagueoflegends.com";
 
