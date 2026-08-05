@@ -137,11 +137,12 @@ h2 {
 }
 
 .title-frame h1 {
-  font-size: 1.7rem;
+  font-size: 2rem;
   white-space: nowrap; /* éviter le passage à la ligne */
 }
 
 .subtitle {
+  font-size: 1rem;
   font-style: italic;
   color: var(--text-soft);
 }
@@ -425,10 +426,10 @@ footer p {
     padding: 20px;
   }
   .title-frame h1 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   #result-title {
-    font-size: 1.9rem;
+    font-size: 3rem;
     letter-spacing: 5px;
   }
   .word-display {
@@ -443,10 +444,10 @@ footer p {
     padding: 14px;
   }
   .title-frame h1 {
-    font-size: 1.05rem;
+    font-size: 1.25rem;
   }
   #result-title {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     letter-spacing: 3px;
   }
   .keyboard {
