@@ -1,0 +1,27 @@
+/* ====< POLICE >==== */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --bg: #0a1428; /* fond de page */
+  --bg-card: #0f1b2e; /* touches, champ, corps du pendu */
+
+  --gold: #c8aa6e;
+  --gold-hover: #ddbe85;
+  --gold-line: rgba(200, 170, 110, 0.4); /* bordures */
+  --gold-soft: rgba(200, 170, 110, 0.2); /* filet du footer */
+  --gold-faint: rgba(200, 170, 110, 0.05); /* rayures du fond */
+
+  --text: #f0e6cf;
+  --text-soft: #9fb0c9;
+  --text-faint: #7d8aa3;
+
+  --green: #5ab55e;
+  --green-bg: rgba(90, 181, 94, 0.18);
+  --green-text: #9fd6a2;
+  --red: #e0605a;
+  --red-bg: rgba(224, 96, 90, 0.18);
+  --red-text: #e79b96;
+
+  --title-font: "Cinzel", serif;
+  --body-font: "Jost", sans-serif;
+}
