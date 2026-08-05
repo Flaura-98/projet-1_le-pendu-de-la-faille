@@ -73,7 +73,7 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 2. Copiez l’URL du dépôt.
 3. Ouvrez Git Bash ou votre Terminal.
 4. Remplacez le répertoire de travail actuel par l’emplacement où vous voulez mettre le répertoire cloné.
-5. Tapez `git clone`, puis collez l’URL que vous avez copiée précédemment.
+5. Tapez `git clone`, puis collez l’URL que vous avez copié précédemment.
 
 ```bash
 git clone https://github.com/Flaura-98/projet-1_le-pendu-de-la-faille.git
@@ -94,13 +94,9 @@ Le jeu démarre tout seul - il n'y a ni page d'accueil ni bouton « Jouer ».
 projet-1_le-pendu-de-la-faille/
 ├── index.html
 ├── css/
-│   ├──
-│   └──
+│   └── defaut.css
 ├── js/
-│   ├──
-│   └──
-├── docs/
-│   └──
+│   └── script.js
 ├── .gitignore
 └── README.md
 ```
