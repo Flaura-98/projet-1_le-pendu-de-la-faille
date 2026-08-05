@@ -58,6 +58,24 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 
 ## 🎨 Identité visuelle
 
+<table>
+<tr>
+<td valign="top">
+
+| Élément        | Détail                                                   |
+| -------------- | -------------------------------------------------------- |
+| Titres         | Police **Cinzel** - Google Fonts                         |
+| Texte de corps | Police **Jost** - Google Fonts                           |
+| Couleurs       | Fond `#0A1428` · Accent doré `#C8AA6E` · Texte `#F0E6CF` |
+| Motifs         | Cadres à coins losanges, texture en hachures diagonales  |
+
+</td>
+<td valign="top">
+<img src="assets/favicon/favicon.svg" width="240">
+</td>
+</tr>
+</table>
+
 | Élément        | Détail                                                   |
 | -------------- | -------------------------------------------------------- |
 | Titres         | Police **Cinzel** - Google Fonts                         |
