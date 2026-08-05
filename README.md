@@ -1,6 +1,6 @@
 # 🗡️ Le Pendu de la Faille — Édition Invocateur
 
-> Un jeu du pendu solo ou multijoueur, sur le thème du jeu **[League of Legends](https://www.leagueoflegends.com/fr-fr/)** de **[RIOT Games](https://www.riotgames.com/fr)**.
+> Un jeu du pendu solo ou multijoueur, sur le thème du jeu [League of Legends](https://www.leagueoflegends.com/fr-fr/) de [RIOT Games](https://www.riotgames.com/fr).
 > Devine le nom du champion caché avant que la Faille ne se referme.
 
 - **Statut** : ⏳ En cours de validation
@@ -11,7 +11,7 @@
 
 ## 📖 Description
 
-**Le Pendu de la Faille** est un jeu du pendu revisité dans l’univers de **[League of Legends](https://www.leagueoflegends.com/fr-fr/)** : les mots à deviner sont des noms de champions. Le pendu traditionnel est remplacé par une mascotte originale, et une fois le mot trouvé, le portrait du champion s’affiche accompagné d’une citation.
+**Le Pendu de la Faille** est un jeu du pendu revisité dans l’univers de [League of Legends](https://www.leagueoflegends.com/fr-fr/) : les mots à deviner sont des noms de champions. Le pendu traditionnel est remplacé par une mascotte originale, et une fois le mot trouvé, le portrait du champion s’affiche accompagné d’une citation.
 
 Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Développeur Web Full Stack - [Believemy](https://believemy.com/fr). Sans démonstration fournie au préalable, la conception (maquette, identité visuelle, règles) est entièrement personnelle.
 
@@ -45,14 +45,14 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 
 ## 🛠️ Stack technique
 
-| Élément                                                 | Détail                                                                                            |
-| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| HTML5                                                   | Structure des pages                                                                               |
-| CSS3                                                    | Mise en forme, responsive design, animations et transitions                                       |
-| JavaScript                                              | Logique du jeu, interactions et gestion des événements                                            |
-| Google Fonts                                            | Police d'écriture                                                                                 |
-| GitHub                                                  | Versionnage, suivi des modifications et sauvegarde du projet                                      |
-| [Data Dragon](https://developer.riotgames.com/docs/lol) | API publique **[RIOT Games](https://www.riotgames.com/fr)** - Portraits et citations de champions |
+| Élément                                                 | Détail                                                                                        |
+| ------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| HTML5                                                   | Structure des pages                                                                           |
+| CSS3                                                    | Mise en forme, responsive design, animations et transitions                                   |
+| JavaScript                                              | Logique du jeu, interactions et gestion des événements                                        |
+| Google Fonts                                            | Police d'écriture                                                                             |
+| GitHub                                                  | Versionnage, suivi des modifications et sauvegarde du projet                                  |
+| [Data Dragon](https://developer.riotgames.com/docs/lol) | API publique [RIOT Games](https://www.riotgames.com/fr) - Portraits et citations de champions |
 
 ---
 
@@ -122,7 +122,7 @@ projet-1_le-pendu-de-la-faille/
 ## ⚖️ Crédits & mentions légales
 
 - Portraits de champions récupérés via **[Data Dragon](https://developer.riotgames.com/docs/lol)**, mis à disposition par **[RIOT Games](https://www.riotgames.com/fr)** pour les projets communautaires.
-- La mascotte du pendu est une **création originale**, distincte du Poro officiel de **[RIOT Games](https://www.riotgames.com/fr)**.
+- La mascotte du pendu est une **création originale**, distincte du Poro officiel de [RIOT Games](https://www.riotgames.com/fr).
 - Les polices _Beaufort for LOL_ et _Spiegel_ étant sous licence commerciale, ce projet utilise **Cinzel** et **Jost** (Google Fonts, libres de droits) à la place.
 - L’écran de victoire/défaite est une **interprétation originale**, non une reproduction des écrans officiels de fin de partie.
 - **[League of Legends](https://www.leagueoflegends.com/fr-fr/)** est une marque déposée de **[RIOT Games](https://www.riotgames.com/fr)**, Inc. Ce projet est un travail pédagogique **non commercial et n’est affilié ni approuvé par [RIOT Games](https://www.riotgames.com/fr)**.
