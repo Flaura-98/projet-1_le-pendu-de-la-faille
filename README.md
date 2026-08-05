@@ -77,15 +77,6 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 </tr>
 </table>
 
-| Élément        | Détail                                                   |
-| -------------- | -------------------------------------------------------- |
-| Titres         | Police **Cinzel** - Google Fonts                         |
-| Texte de corps | Police **Jost** - Google Fonts                           |
-| Couleurs       | Fond `#0A1428` · Accent doré `#C8AA6E` · Texte `#F0E6CF` |
-| Motifs         | Cadres à coins losanges, texture en hachures diagonales  |
-
-<img src="https://github.com/Flaura-98/projet-1_le-pendu-de-la-faille/blob/main/assets/favicon/favicon.svg" width="320">
-
 ## 🚀 Installation
 
 1. Au-dessus de la liste de fichiers, cliquez sur `<> Code`.
