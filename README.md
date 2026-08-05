@@ -60,7 +60,7 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 
 <table>
 <tr>
-<td valign="top">
+<td valign="middle">
 
 | Élément        | Détail                                                   |
 | -------------- | -------------------------------------------------------- |
@@ -70,8 +70,9 @@ Projet réalisé dans le cadre d’un projet-passerelle #1 de la formation Déve
 | Motifs         | Cadres à coins losanges, texture en hachures diagonales  |
 
 </td>
-<td valign="top">
-<img src="assets/favicon/favicon.svg" width="240">
+<td valign="middle">
+<b>Mascotte du Pendu de la Faille</b><br>
+<img src="assets/favicon/favicon.svg" width="240" alt="Mascotte du Pendu de la Faille">
 </td>
 </tr>
 </table>
