@@ -109,12 +109,6 @@ projet-1_le-pendu-de-la-faille/
 
 ---
 
-## 📄 Documentation technique
-
-La documentation technique complète (maquette, choix de conception, règles détaillées) est disponible ici : _[à compléter — lien ou fichier joint à la soumission]_
-
----
-
 ## ⚖️ Crédits & mentions légales
 
 - Portraits de champions récupérés via **[Data Dragon](https://developer.riotgames.com/docs/lol)**, mis à disposition par Riot Games pour les projets communautaires.
