@@ -115,7 +115,7 @@ projet-1_le-pendu-de-la-faille/
 
 ## 🎥 Démo vidéo
 
-📺 Lien vers la vidéo de démonstration (non-répertoriée) : _[à compléter]_
+📺 Lien vers la vidéo de la présentation/démonstration (non-répertoriée) : **[Youtube](https://youtu.be/kczvfob64c8)**
 
 ---
 
